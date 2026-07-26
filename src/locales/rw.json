@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Abo turi bo",
+    "services": "Serivisi",
+    "portfolio": "Imirimo",
+    "industries": "Inganda",
+    "testimonials": "Ibitekerezo",
+    "blog": "Ubutumwa",
+    "contact": "Twandikire",
+    "getStarted": "Tangira Nonaha"
+  },
+  "hero": {
+    "eyebrow": "AC Company \u2014 Ikigo cy'Ikoranabuhanga",
+    "title": "Twubaka Ibisubizo byi Ikoranabuhanga byo Ejo Hazaza",
+    "subtitle": "Dukora imbuga za interineti zigezweho, porogaramu za telefone, ibisubizo bya AI, sisitemu z'ibigo, ibikoresho bya cloud, n'ibicuruzwa bya digitale bifasha ubucuruzi gukura.",
+    "ctaPrimary": "Tangira Nonaha",
+    "ctaSecondary": "Reba Imirimo Yacu",
+    "scroll": "Komeza urebe hepfo",
+    "stats": {
+      "projects": "Imishinga Yarangiye",
+      "clients": "Abakiriya Twafashije",
+      "countries": "Ibihugu Twageraho",
+      "years": "Imyaka y'Uburambe"
+    }
+  },
+  "trusted": {
+    "title": "Twizerwa n'amasosiyete akomeye ku isi"
+  },
+  "about": {
+    "seoTitle": "Abo turi bo | AC Company",
+    "seoDescription": "AC Company ihuriza hamwe umugambi w'ibicuruzwa, igishushanyo na tekinoloji kugira ngo dukore ubunararibonye bwa digitale butuma ubucuruzi bukura.",
+    "eyebrow": "Abo turi bo",
+    "title": "Twubaka porogaramu ziha imbaraga amasosiyete y'ejo hazaza",
+    "description": "AC Company ni ikigo cy'ikoranabuhanga cyihaye intego yo gutegura, kubaka no kwagura ibikoresho bya software byo ku rwego rw'isi. Dukoresha inzobere zikuru mu ikoranabuhanga hamwe n'imyumvire y'ibicuruzwa kugira ngo dutange ibikoresho bihagaze neza mu mikorere isanzwe.",
+    "ctaPrimary": "Reba serivisi",
+    "ctaSecondary": "Tegura inama y'uburyo",
+    "heroTagline": "Twubakiye ku matsinda yifuza kugera kure",
+    "heroSubtitle": "Umufatanyabikorwa ukorana neza n'ibigo byihuta mu bikorwa.",
+    "heroAccent": "Ubwiza bw'ibicuruzwa mu bikorwa",
+    "heroAccentDescription": "Itsinda ryacu rihuza ubushakashatsi, automatisation n'ikipe yita ku gutanga kugira ngo ube wahagera ku isoko ufite umucyo n'umuvuduko.",
+    "milestones": [
+      { "value": "9+", "label": "Imyaka yo gutanga ibicuruzwa" },
+      { "value": "120+", "label": "Imishinga yatangijwe" },
+      { "value": "18", "label": "Ibihugu twakoranye" }
+    ],
+    "differentiatorsEyebrow": "Icyadutandukanya",
+    "differentiatorsTitle": "Ikigo gishya cyubatswe ku muvuduko, umucyo n'ubuhanga.",
+    "differentiatorsSubtitle": "Duhuza umugambi w'ibicuruzwa, tekinoloji n'ubunararibonye kugira ngo ibyo ushyira mu bikorwa byongerere agaciro mu gihe kirekire.",
+    "pillars": [
+      { "title": "Gutegura by'ubwenge", "body": "Ducomeka intego z'ibicuruzwa ku gikorwa kugira ngo buri gusohora ku isoko bijyanye n'ingaruka z'ubucuruzi." },
+      { "title": "Igishushanyo cyita ku muntu", "body": "Interineti zitekerezwa neza, zihinduka kandi zubatswe kugira ngo zibe zoroshye gucunga kuva ku ntambwe ya mbere." },
+      { "title": "Ubwubatsi bwizewe", "body": "Dutanga platfomu zikomeye zifite igenzura ryiza, gusuzuma no kubungabunga mu gihe kirekire." }
+    ],
+    "valuesEyebrow": "Uburyo dukoramo",
+    "valuesTitle": "Indangagaciro zifatika mu buri mushinga",
+    "valuesSubtitle": "Tushora ku bantu, ku buryo no ku bufatanye kugira ngo buri gutangiza kube gukomeye kandi gishoboka.",
+    "talentTitle": "Ubumenyi bukomeye",
+    "talentDescription": "Abashushanyi, abakora porogaramu n'abayobozi b'ibicuruzwa bakemura ibibazo by'ubucuruzi nyakuri.",
+    "partnershipTitle": "Ubufatanye bw'strategiya",
+    "partnershipDescription": "Dukorana n'itsinda ryawe kugira ngo tugume ku murongo kandi tugende vuba.",
+    "storyEyebrow": "Inkuru yacu",
+    "storyTitle": "Impamvu uburyo bwacu butuma gutangiza bigenda neza",
+    "storySubtitle": "Buri mushinga wubatswe ku bushakashatsi bufatika, kwibanda neza n'ubumenyi bw'ibicuruzwa.",
+    "differentiators": [
+      { "title": "Gutanga byibanda", "desc": "Dukomeza itsinda ku by'ingenzi kandi tukirinda kwibanda ku bintu bidafite akamaro." },
+      { "title": "Ibicuruzwa + tekinoloji", "desc": "Igishushanyo n'ubwubatsi bikorana kugira ngo ibyemezo byibe iby'ikoranabuhanga, byabantu kandi byibanda ku ntego." },
+      { "title": "Byubatswe kugira ngo byaguke", "desc": "Dukora sisitemu n'uburyo byoroshye kwaguka, kubungabunga no gukura mu gihe." }
+    ],
+    "missionTitle": "Intego Yacu",
+    "mission": "Guha imbaraga ubucuruzi bufite intego zirambye ikoranabuhanga ryizewe kandi ryiza rikuraho ibibazo kandi rikafungura amahirwe yo gukura.",
+    "visionTitle": "Icyerekezo Cyacu",
+    "vision": "Kuba umufatanyabikorwa wizewe mu ikoranabuhanga inyuma y'ibicuruzwa bizaza bizatandukanye n'ibindi.",
+    "valuesTitle": "Indangagaciro Zacu",
+    "values": [
+      { "title": "Ubuhanga", "desc": "Twita ku bisobanuro abandi basiga inyuma." },
+      { "title": "Umuvuduko", "desc": "Dutanga umurimo vuba tutononnye ikizere." },
+      { "title": "Ukuri", "desc": "Itumanaho rigaragara mu ntambwe zose." },
+      { "title": "Ubufatanye", "desc": "Intego zawe zihinduka gahunda yacu." }
+    ],
+    "why": "Impamvu Watwitoranya",
+    "cta": "Menya Byinshi"
+  },
+  "services": {
+    "seoTitle": "Serivisi | AC Company",
+    "seoDescription": "AC Company itanga serivisi z'igishushanyo, iterambere, AI na cloud kugira ngo amatsinda agere ku ntego byihuse.",
+    "eyebrow": "Ibyo Dukora",
+    "title": "Serivisi zuzuye za digitale, zubatswe kugira ngo zagure",
+    "subtitle": "Kuva ku gitekerezo cya mbere kugeza ku bikoresho by'ikoranabuhanga — itsinda rimwe, kuva ku ntangiriro kugeza ku iherezo.",
+    "ctaWork": "Reba imirimo yacu",
+    "ctaProject": "Tangira umushinga",
+    "coreOffering": "Icyo dutanga",
+    "deliveryEyebrow": "Uburyo bwo gutanga",
+    "deliveryTitle": "Uburyo bwo gukorana buhuje n'icyiciro cy'iterambere ryawe.",
+    "deliverySubtitle": "Dukora nka extension y'itsinda ryawe mu igerageza ryihuse, cyangwa tugatunganya imishinga kuva ku ntangiriro kugeza ku iherezo.",
+    "deliveryWhatYouGetTitle": "Icyo ubona",
+    "deliveryWhatYouGetSubtitle": "Umucyo, umuvuduko n'ibyavuye biboneka.",
+    "outcomes": [
+      "Itsinda ryiteguye gutangiza ibicuruzwa",
+      "Ibyiciro byihuse byo gukosora",
+      "Imigambi isobanutse n'iterambere rigereranywa"
+    ],
+    "learnMore": "Menya byinshi",
+    "items": [
+      { "title": "Gukora Imbuga", "desc": "Imbuga n'porogaramu za interineti zikora neza kandi zubatswe ku buhanga bugezweho.", "features": ["Porogaramu zubatswe uko byakabaye", "Igishushanyo gikora kuri buri gikoresho", "Kwinjiza API" ] },
+      { "title": "Porogaramu za Telefone", "desc": "Porogaramu zikorera kuri sisitemu zose, zubatswe kugira ngo zihuse kandi zagure.", "features": ["iOS na Android", "UX ikora kuri buri gikoresho", "Gutanga muri App Store" ] },
+      { "title": "Sisitemu z'Ibigo", "desc": "ERP na CRM byihariye bifasha gucunga imikorere igoye.", "features": ["Automatisasiyo y'imirimo", "Kohereza amakuru neza", "Ubugenzuzi bw'abakoresha"] },
+      { "title": "Ibisubizo bya AI", "desc": "Ubwenge bw'ubukorikori n'ikoranabuhanga ryikora ryinjizwa mu bicuruzwa.", "features": ["Abafasha ba AI", "Automatisasiyo y'ibikorwa", "Icyerekezo cy'ubwenge"] },
+      { "title": "Igishushanyo cya UI/UX", "desc": "Ibiranga bikozwe hashingiwe ku bushakashatsi, byoroshye gukoresha kandi byiza." },
+      { "title": "Ibisubizo bya Cloud", "desc": "Ubwubatsi bwa cloud bwizewe kandi bwagura kuri AWS, Azure na GCP." },
+      { "title": "DevOps", "desc": "Uburyo bwa CI/CD n'ibikoresho bitanga serivisi zidahagarara." },
+      { "title": "Gukora API", "desc": "API zizewe, zisobanuwe neza zihuza ibikoresho byawe byose." },
+      { "title": "Ibisubizo bya Database", "desc": "Igenamiterere n'iterambere ry'imibare kuri urwego urwo ari rwo rwose." },
+      { "title": "Kubungabunga", "desc": "Gukurikirana, kuvugurura no gufasha bihoraho kugira ngo sisitemu zikomeze gukora neza." },
+      { "title": "Umutekano wa Cyber", "desc": "Isesengura ry'ibyago n'ubugenzuzi kugira ngo turinde amakuru yawe." },
+      { "title": "Ubujyanama", "desc": "Ubujyanama bw'ikoranabuhanga bufasha kugabanya ibyago mu byemezo bikomeye." }
+    ]
+  },
+  "process": {
+    "eyebrow": "Uko Dukora",
+    "title": "Uburyo bwubatswe ku bumenyi busobanutse, mu ntambwe zose",
+    "steps": [
+      { "title": "Iperereza", "desc": "Dusesengura intego zawe, abakoresha n'ibibazo bishoboka." },
+      { "title": "Gutegura", "desc": "Icyerekezo, gahunda n'ubwubatsi bw'ikoranabuhanga bigira imiterere." },
+      { "title": "Igishushanyo", "desc": "Ibishushanyo bihinduka UI yuzuye kandi yagerageje." },
+      { "title": "Iterambere", "desc": "Imikorere ya Agile ihindura ibishushanyo porogaramu ikora." },
+      { "title": "Igerageza", "desc": "Isuzuma rikaze kuri mudasobwa, ibikoresho n'ibibazo bidasanzwe." },
+      { "title": "Gushyira mu bikorwa", "desc": "Gutangiza umutekanye, gukurikiranwa mu mikorere y'ukuri." },
+      { "title": "Ubufasha", "desc": "Ubufasha buhoraho kugira ngo igicuruzwa cyawe gikomeze gukura." }
+    ]
+  },
+  "portfolio": {
+    "seoTitle": "Imirimo | AC Company",
+    "seoDescription": "Reba imirimo yatoranijwe ya AC Company, harimo ibicuruzwa bya digitale, porogaramu za telefone n'ibisubizo bishingiye kuri AI.",
+    "eyebrow": "Imirimo Yacu",
+    "title": "Imishinga idasanzwe, ibisubizo by'ukuri",
+    "subtitle": "Bimwe mu bicuruzwa twateguye, twubatse kandi twatanze.",
+    "ctaContact": "Tuganirize ku gitekerezo",
+    "projectSummary": "Igicuruzwa cya kijyambere kigamije imikorere, gukorwa neza no gusunika mu gihe kirekire.",
+    "viewCase": "Reba Inyandiko",
+    "filters": { "all": "Byose", "web": "Imbuga", "mobile": "Telefone", "ai": "AI", "cloud": "Cloud" },
+    "liveDemo": "Reba Umurimo",
+    "sourceCode": "Kode"
+  },
+  "industries": {
+    "seoTitle": "Inganda | AC Company",
+    "seoDescription": "AC Company ifasha amakipe yo mu nganda nka fintech, ubuzima, uburezi, ubucuruzi n'ibindi kugera ku bisubizo byihariye.",
+    "eyebrow": "Inganda dukorera",
+    "title": "Dushyira mu bikorwa ibisubizo bya digitale bihuye n'ibikenewe n'inganda zanyu.",
+    "subtitle": "Duhindura ibibazo bikomeye mu bisubizo byoroshye kandi byubakiye ku cyizere n'umutekano.",
+    "ctaServices": "Reba serivisi",
+    "ctaContact": "Tuvugane",
+    "cardSectionTitle": "Inganda aho tuzanira umucyo, gukurikiza amategeko n'ibyiza ku bakiriya.",
+    "cardSectionSubtitle": "Dufasha amakipe mu nganda zikomeye gutera imbere badatakaza icyizere.",
+    "items": {
+      "fintech": { "name": "Serivisi z'imari", "description": "Ibisubizo bya digitale byizewe kandi byubahiriza amategeko byunganira ikizere buri gihe." },
+      "healthcare": { "name": "Ubuzima & ibyiza", "description": "Imbuga zishimisha abarwayi, uburyo bwo gufata gahunda n'ibikoresho byo gukora neza byubakiye ku bwizigame." },
+      "ecommerce": { "name": "Ubucuruzi bwo kuri internet", "description": "Ububiko n'inzira zigurisha zubatswe kugira ngo ziboneke byoroshye kandi zigororoke." },
+      "logistics": { "name": "Ubwikorezi", "description": "Sisitemu zikorwa neza zerekana umuvuduko, kugaragara no guhuza ibikorwa." },
+      "education": { "name": "Uburezi & kwiga", "description": "Urubuga rukora neza gufasha abanyeshuri, amatsinda n'ibigo guhuza amasomo, ubufasha n'umuryango." },
+      "realEstate": { "name": "Imicungire y'imitungo", "description": "Ibisubizo byihariye byorohera abantu kubona inzu no gucunga abakiriya." }
+    }
+  },
+  "why": {
+    "eyebrow": "Inyungu Zacu",
+    "title": "Impamvu amatsinda yitoranya AC Company",
+    "items": [
+      { "title": "Itsinda ry'Inzobere", "desc": "Inzobere zikuru mu ikoranabuhanga n'igishushanyo, ntabwo ari abatangira." },
+      { "title": "Gutanga Vuba", "desc": "Uburyo bworoshye butanga umurimo tutagabanije ubwiza." },
+      { "title": "Ikoranabuhanga Rigezweho", "desc": "Dukoresha ibikoresho byubatswe kugira ngo bihanganire ejo hazaza." },
+      { "title": "Ubufasha 24/7", "desc": "Abantu b'ukuri, buri gihe bakwiyegereza." },
+      { "title": "Umutekano Ukomeye", "desc": "Umutekano ushyirwa imbere kuva umunsi wa mbere." },
+      { "title": "Ibisubizo Bigaragara", "desc": "Ingaruka zigaragara muri buri mushinga." }
+    ]
+  },
+  "testimonials": {
+    "seoTitle": "Ibitekerezo | AC Company",
+    "seoDescription": "Soma ibitekerezo by'abakiriya urebe impamvu amatsinda yizerana na AC Company mu byemezo bya tekinoloji n'ibicuruzwa.",
+    "eyebrow": "Ibitekerezo",
+    "title": "Dukundwa n'abashinze amasosiyete n'amatsinda y'ibicuruzwa",
+    "subtitle": "Ubufatanye n'abakiriya ni umutima w'akazi kacu, kandi ibitekerezo tubona bigaragaza umucyo, ubuhanga n'umutuzo mu ishyirwa mu bikorwa.",
+    "ctaContact": "Ukeneye umufatanyabikorwa?",
+    "sectionEyebrow": "Ibyo abakiriya bavuga",
+    "sectionTitle": "Amasosi yagarutse kuri twe kuko dukuraho urujijo mu bintu bigoye.",
+    "sectionSubtitle": "Kuva ku myumvire y'abayobozi kugeza ku gutangiza umunsi, abakiriya bacu bahora batubwira itumanaho, umucyo n'ubuhanga."
+  },
+  "team": {
+    "eyebrow": "Menya Itsinda Ryacu",
+    "title": "Inzobere ziri inyuma ya buri murimo"
+  },
+  "pricing": {
+    "eyebrow": "Ibiciro",
+    "title": "Gahunda zoroshye ku rwego urwo ari rwo rwose",
+    "monthly": "Buri kwezi",
+    "yearly": "Buri mwaka",
+    "popular": "Bikunzwe Cyane",
+    "cta": "Hitamo Gahunda",
+    "plans": [
+      { "name": "Gutangira", "price": "1,200", "desc": "Ku matsinda atangira gutanga igicuruzwa cyabo cya mbere.", "features": ["Umushushanyi umwe wihariye", "Kugeza ku banyabuhanga 2", "Isuzuma buri cyumweru", "Ubufasha bw'ibanze"] },
+      { "name": "Ubucuruzi", "price": "3,500", "desc": "Ku masosiyete akura agura sisitemu yayo.", "features": ["Itsinda ryuzuye ry'igicuruzwa n'igishushanyo", "Kugeza ku banyabuhanga 5", "Umuyobozi w'umushinga wihariye", "Ubufasha bwihutirwa", "Guhuza kwihariye"] },
+      { "name": "Ikigo Kinini", "price": "Byumvikanaho", "desc": "Ku miryango ifite ibisabwa bigoye kandi binini.", "features": ["Kwagura itsinda bitagira imipaka", "Amasezerano y'ubufasha yihariye", "Isuzuma ry'umutekano ryihariye", "Ubufasha 24/7", "Gukorana aho uri"] }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Ibibazo Bikunze Kubazwa",
+    "title": "Ibibazo bikunze kubazwa",
+    "items": [
+      { "q": "Umushinga usanzwe umara igihe kingana iki?", "a": "Imishinga myinshi imara hagati y'ibyumweru 6 na 16 bitewe n'ubunini bwayo, kuva ku iperereza kugeza ku itangizwa." },
+      { "q": "Mukorana n'amatsinda atangira n'amasosiyete manini?", "a": "Yego \u2014 gahunda n'uburyo bwacu byifashisha kuva ku bicuruzwa bito kugeza kuri sisitemu z'ibigo binini." },
+      { "q": "Ni ikihe ikoranabuhanga mwihariyemo?", "a": "Vue, React, Node.js, Python, ibikoresho bya cloud n'ibikoresho bigezweho bya telefone." },
+      { "q": "Mushobora gutanga ubufasha nyuma yo gutangiza?", "a": "Yego rwose. Dutanga ubufasha buhoraho, gukurikirana n'iterambere ry'ibiranga bishya." },
+      { "q": "Twatangira dute?", "a": "Saba ikiganiro cy'iperereza kandi tuzasobanura umushinga wawe mu minsi, ntabwo ari ibyumweru." }
+    ]
+  },
+  "blog": {
+    "seoTitle": "Blog | AC Company",
+    "seoDescription": "Soma ibitekerezo bya AC Company ku bijyanye na strategy y'ibicuruzwa, tekinoloji n'ejo hazaza h'ubunararibonye bwa digitale.",
+    "eyebrow": "Ubutumwa & ibitekerezo",
+    "title": "Ibitekerezo bifatika ku matsinda y'ibicuruzwa ya kijyambere n'abashinze amasosiyete.",
+    "subtitle": "Dusangiza ibyo tubona ku bijyanye na strategy y'ibicuruzwa, guhitamo tekinoloji n'imyitwarire ifasha ibicuruzwa gukura no kuboneka neza.",
+    "ctaContact": "Tangira kuganira",
+    "sectionEyebrow": "Inyandiko zishya",
+    "sectionTitle": "Imyumvire nshya ku kubaka ibicuruzwa byiza byaba iby'ubwenge.",
+    "sectionSubtitle": "Ibyanditswe byacu byibanda ku bitekerezo bifatika bifasha amatsinda gufata ibyemezo byiza bidafite urujijo.",
+    "readMore": "Soma byinshi",
+    "readArticle": "Soma inkuru",
+    "searchPlaceholder": "Shakisha inyandiko..."
+  },
+  "newsletter": {
+    "title": "Menya ibigezweho mbere y'abandi",
+    "subtitle": "Bona amakuru y'ikoranabuhanga muri iyimero yawe.",
+    "placeholder": "Andika email yawe",
+    "cta": "Iyandikishe",
+    "success": "Wiyandikishije! Reba iyimero yawe."
+  },
+  "contact": {
+    "seoTitle": "Twandikire | AC Company",
+    "seoDescription": "Twandikire kugira ngo tuganire ku bijyanye na strategy y'ibicuruzwa, igishushanyo, iterambere n'ubufatanye bwa AI.",
+    "eyebrow": "Twandikire",
+    "title": "Reka twubake ikintu kiruta ibindi hamwe",
+    "subtitle": "Tubwire ibyerekeye umushinga wawe kandi tuzasubiza mu munsi umwe w'akazi.",
+    "ctaEmail": "Tangira ikiganiro",
+    "ctaWhatsapp": "Twandikire kuri WhatsApp",
+    "emailUs": "Twandikire",
+    "callUs": "Duhamagare",
+    "whatsapp": "Whatsapp",
+    "visit": "Sura",
+    "name": "Amazina Yombi",
+    "email": "Aderesi ya Email",
+    "phone": "Nimero ya Telefone",
+    "subject": "Ingingo",
+    "message": "Ubutumwa Bwawe",
+    "send": "Ohereza Ubutumwa",
+    "sending": "Kohereza...",
+    "success": "Ubutumwa bwoherejwe! Tuzagusubiza vuba.",
+    "office": "Aderesi y'Ibiro",
+    "hours": "Amasaha y'Akazi",
+    "hoursValue": "Kuwa Mbere - Kuwa Gatanu, 9:00 - 18:00"
+  },
+  "footer": {
+    "about": "AC Company ni ikigo cy'ikoranabuhanga cyihaye intego yo gutanga ibisubizo bigezweho ku bucuruzi bufite intego zo gukura ku isi.",
+    "quickLinks": "Ihuza Ryihuse",
+    "services": "Serivisi",
+    "contact": "Twandikire",
+    "newsletter": "Iyimero",
+    "rights": "Uburenganzira bwose burarinzwe.",
+    "privacy": "Politiki y'Ibanga",
+    "terms": "Amabwiriza y'Ikoreshwa"
+  },
+  "common": {
+    "loading": "Turimo gutegura ahantu...",
+    "backToTop": "Subira hejuru"
+  }
+}

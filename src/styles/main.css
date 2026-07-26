@@ -1,0 +1,133 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink-950: #0a0a0a;
+  --color-ink-900: #121212;
+  --color-ink-800: #1a1a1a;
+  --color-ink-700: #262626;
+  --color-ink-600: #404040;
+  --color-ink-500: #5b6470;
+  --color-ink-400: #8a8f98;
+  --color-ink-300: #b4b8bf;
+  --color-ink-200: #e4e6e9;
+  --color-ink-100: #f0f1f3;
+  --color-ink-50: #f7f8fa;
+
+  --color-accent-400: #5b8def;
+  --color-accent-500: #2563eb;
+  --color-accent-600: #1d4ed8;
+  --color-accent-700: #1e40af;
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-aurora: aurora 18s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(1.5deg); }
+}
+@keyframes aurora {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(3%, -4%) scale(1.08); }
+  66% { transform: translate(-3%, 3%) scale(0.96); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink-950);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: var(--color-accent-500);
+  color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-ink-50); }
+::-webkit-scrollbar-thumb { background: var(--color-ink-300); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-ink-400); }
+
+/* Base hidden state for .reveal elements; GSAP (ScrollTrigger) owns the
+   actual animation-in. Kept here only to avoid a flash of visible content
+   before JS initializes. */
+.reveal {
+  opacity: 0;
+}
+.reveal.is-visible {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.glass-dark {
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #0a0a0a 0%, #404040 55%, #2563eb 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-noise {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0);
+  background-size: 4px 4px;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.container-px {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media (min-width: 1024px) {
+  .container-px { padding-left: 2rem; padding-right: 2rem; }
+}

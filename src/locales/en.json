@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "industries": "Industries",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "eyebrow": "AC Company \u2014 Digital Engineering Studio",
+    "title": "Building Digital Solutions for Tomorrow",
+    "subtitle": "We create modern websites, mobile applications, AI solutions, enterprise software, cloud platforms, and digital products that help businesses grow.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "View Portfolio",
+    "scroll": "Scroll to explore",
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Clients Served",
+      "countries": "Countries Reached",
+      "years": "Years of Experience"
+    }
+  },
+  "trusted": {
+    "title": "Trusted by ambitious teams worldwide"
+  },
+  "about": {
+    "seoTitle": "About AC Company | AC Company",
+    "seoDescription": "AC Company combines product strategy, design and engineering to create digital experiences that grow businesses.",
+    "eyebrow": "About AC Company",
+    "title": "Engineering the software behind tomorrow's companies",
+    "description": "AC Company is a digital engineering studio dedicated to designing, building and scaling world-class software. We pair senior engineering talent with a product mindset to ship platforms that hold up under real-world pressure.",
+    "ctaPrimary": "Explore services",
+    "ctaSecondary": "Book a strategy call",
+    "heroTagline": "Built for ambitious teams",
+    "heroSubtitle": "A collaborative partner for fast-moving organisations.",
+    "heroAccent": "Product excellence in motion",
+    "heroAccentDescription": "Our team blends research, automation and thoughtful delivery so you can move from idea to market with clarity and momentum.",
+    "milestones": [
+      { "value": "9+", "label": "Years of product delivery" },
+      { "value": "120+", "label": "Product launches supported" },
+      { "value": "18", "label": "Countries served" }
+    ],
+    "differentiatorsEyebrow": "What sets us apart",
+    "differentiatorsTitle": "A modern studio built around momentum, clarity and craft.",
+    "differentiatorsSubtitle": "We bring product strategy, technology and experience design together so your investment compounds over time.",
+    "pillars": [
+      { "title": "Strategy-led delivery", "body": "We connect product goals to execution so every release is aligned with real business impact." },
+      { "title": "Human-centered design", "body": "Interfaces are thoughtful, adaptive and built to feel effortless from the first click." },
+      { "title": "Reliable engineering", "body": "We ship resilient platforms with strong quality control, observability and long-term maintainability." }
+    ],
+    "valuesEyebrow": "Our approach",
+    "valuesTitle": "Core values that shape every engagement",
+    "valuesSubtitle": "We invest in people, process and partnership to make every launch stronger and more sustainable.",
+    "talentTitle": "Expert talent",
+    "talentDescription": "Designers, engineers and product leaders who solve real business problems.",
+    "partnershipTitle": "Strategic partnership",
+    "partnershipDescription": "We work side-by-side with your team to stay aligned and move faster.",
+    "storyEyebrow": "Our story",
+    "storyTitle": "Why our process leads to better launches",
+    "storySubtitle": "Every engagement is grounded in practical research, clear focus and product discipline.",
+    "differentiators": [
+      { "title": "Focused delivery", "desc": "We keep teams aligned around the right priorities and avoid feature overload." },
+      { "title": "Product + engineering", "desc": "Design and build work together so decisions are technical, human and outcome-driven." },
+      { "title": "Built for scale", "desc": "We create systems and interfaces that are easy to iterate on, maintain and grow over time." }
+    ],
+    "missionTitle": "Our Mission",
+    "mission": "To empower ambitious businesses with reliable, elegant technology that removes friction and unlocks growth.",
+    "visionTitle": "Our Vision",
+    "vision": "To be the trusted engineering partner behind the next generation of category-defining products.",
+    "valuesTitle": "Core Values",
+    "values": [
+      { "title": "Craft", "desc": "We sweat the details others skip." },
+      { "title": "Velocity", "desc": "We ship fast without breaking trust." },
+      { "title": "Transparency", "desc": "Clear communication, every step." },
+      { "title": "Partnership", "desc": "Your goals become our roadmap." }
+    ],
+    "why": "Why Choose Us",
+    "cta": "Learn More"
+  },
+  "services": {
+    "seoTitle": "Services | AC Company",
+    "seoDescription": "AC Company delivers design, development, AI and cloud services to help teams move faster and scale with confidence.",
+    "eyebrow": "What We Do",
+    "title": "Full-stack digital services, built for scale",
+    "subtitle": "From first sketch to production infrastructure — one team, end to end.",
+    "ctaWork": "View our work",
+    "ctaProject": "Start a project",
+    "coreOffering": "What we bring to your product",
+    "deliveryEyebrow": "Delivery approach",
+    "deliveryTitle": "A delivery flow tailored to your growth stage.",
+    "deliverySubtitle": "We partner as an extended team for rapid validation, or execute full product builds from discovery through launch.",
+    "deliveryWhatYouGetTitle": "What you get",
+    "deliveryWhatYouGetSubtitle": "Clarity, speed and measurable progress.",
+    "outcomes": [
+      "A team built to launch products",
+      "Fast, feedback-driven iterations",
+      "Clear plans with measurable milestones"
+    ],
+    "learnMore": "Learn more",
+    "items": [
+      { "title": "Web Development", "desc": "High-performance, pixel-perfect websites and web apps built on modern frameworks.", "features": ["Custom web apps", "Responsive design", "API integrations"] },
+      { "title": "Mobile Apps", "desc": "Native and cross-platform apps engineered for speed, delight and scale.", "features": ["iOS & Android", "Cross-platform UX", "App store launch"] },
+      { "title": "Enterprise Systems", "desc": "Custom ERPs, CRMs and internal tools that streamline complex operations.", "features": ["Workflow automation", "Secure data sync", "User access controls"] },
+      { "title": "AI Solutions", "desc": "Applied machine learning, automation and intelligent product features.", "features": ["AI assistants", "Process automation", "Smart insights"] },
+      { "title": "UI/UX Design", "desc": "Research-driven interfaces that are as usable as they are beautiful." },
+      { "title": "Cloud Solutions", "desc": "Scalable, secure cloud architecture across AWS, Azure and GCP." },
+      { "title": "DevOps", "desc": "CI/CD pipelines, infrastructure as code and zero-downtime deployments." },
+      { "title": "API Development", "desc": "Robust, well-documented APIs that connect your entire ecosystem." },
+      { "title": "Database Solutions", "desc": "Data modelling, performance tuning and migration for any scale." },
+      { "title": "Maintenance", "desc": "Ongoing monitoring, updates and support that keep systems healthy." },
+      { "title": "Cybersecurity", "desc": "Threat modelling, audits and hardened infrastructure to protect your data." },
+      { "title": "Consulting", "desc": "Strategic technology guidance to de-risk your next big decision." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "A process built for clarity, at every stage",
+    "steps": [
+      { "title": "Discovery", "desc": "We dig into your goals, users and constraints." },
+      { "title": "Planning", "desc": "Scope, roadmap and technical architecture take shape." },
+      { "title": "Design", "desc": "Wireframes evolve into a polished, tested UI." },
+      { "title": "Development", "desc": "Agile sprints turn designs into working software." },
+      { "title": "Testing", "desc": "Rigorous QA across devices, browsers and edge cases." },
+      { "title": "Deployment", "desc": "Safe, monitored releases into production." },
+      { "title": "Support", "desc": "Ongoing care to keep your product thriving." }
+    ]
+  },
+  "portfolio": {
+    "seoTitle": "Portfolio | AC Company",
+    "seoDescription": "Explore selected work from AC Company, spanning digital products, mobile apps and AI-driven platforms.",
+    "eyebrow": "Our Work",
+    "title": "Outstanding projects, real outcomes",
+    "subtitle": "A selection of products we've designed, engineered and shipped.",
+    "ctaContact": "Discuss your idea",
+    "projectSummary": "A modern product build focused on performance, usability and long-term scaling.",
+    "viewCase": "View case study",
+    "filters": { "all": "All", "web": "Web", "mobile": "Mobile", "ai": "AI", "cloud": "Cloud" },
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "industries": {
+    "seoTitle": "Industries | AC Company",
+    "seoDescription": "AC Company partners with teams across finance, healthcare, education and regulated markets.",
+    "eyebrow": "Industry focus",
+    "title": "We help regulated and fast-moving sectors turn complex challenges into elegant product experiences.",
+    "subtitle": "Our experience spans finance, healthcare, education and security-first platforms where user trust and clarity are essential.",
+    "ctaServices": "See services",
+    "ctaContact": "Talk to us",
+    "cardSectionTitle": "Industries where we deliver product clarity, compliance and better user outcomes.",
+    "cardSectionSubtitle": "We help teams in regulated environments move faster without sacrificing trust.",
+    "items": {
+      "fintech": { "name": "Financial services", "description": "Digital experiences for modern financial brands, payments platforms and banking ecosystems." },
+      "healthcare": { "name": "Healthcare & wellness", "description": "Patient-focused portals, booking experiences and operational tools built for trust and clarity." },
+      "ecommerce": { "name": "E-commerce", "description": "Growth-focused storefronts and commerce journeys that feel effortless." },
+      "logistics": { "name": "Logistics", "description": "Operational systems designed for speed, visibility and coordination." },
+      "education": { "name": "Education & learning", "description": "Platforms that help learners, teams and institutions connect with courses, coaching and resources." },
+      "realEstate": { "name": "Real Estate", "description": "Elevated digital experiences for property discovery and client engagement." }
+    }
+  },
+  "why": {
+    "eyebrow": "Our Benefits",
+    "title": "Why teams choose AC Company",
+    "items": [
+      { "title": "Expert Team", "desc": "Senior engineers and designers, not juniors learning on your budget." },
+      { "title": "Fast Delivery", "desc": "Lean processes that ship without cutting corners." },
+      { "title": "Modern Technologies", "desc": "We build with tools made for tomorrow's scale." },
+      { "title": "24/7 Support", "desc": "Real humans, always a message away." },
+      { "title": "High Security", "desc": "Security-first engineering, baked in from day one." },
+      { "title": "Proven Results", "desc": "Measurable impact across every engagement." }
+    ]
+  },
+  "testimonials": {
+    "seoTitle": "Testimonials | AC Company",
+    "seoDescription": "Read client feedback and see why teams trust AC Company to guide product and technology decisions.",
+    "eyebrow": "Client feedback",
+    "title": "Trusted by teams that value thoughtful delivery and visible results.",
+    "subtitle": "Client partnerships are at the heart of our work, and the feedback we receive reflects a blend of clarity, craftsmanship and calm execution.",
+    "ctaContact": "Need a partner?",
+    "sectionEyebrow": "What clients say",
+    "sectionTitle": "Teams return to us because we make the complex feel clear.",
+    "sectionSubtitle": "From executive alignment to launch-day execution, our clients consistently cite communication, clarity and craft."
+  },
+  "team": {
+    "eyebrow": "Meet Our Team",
+    "title": "The experts behind every build"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple plans for every stage",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "popular": "Most Popular",
+    "cta": "Choose Plan",
+    "plans": [
+      { "name": "Startup", "price": "1,200", "desc": "For early-stage teams shipping their first product.", "features": ["1 dedicated product designer", "Up to 2 engineers", "Weekly progress reviews", "Basic support"] },
+      { "name": "Business", "price": "3,500", "desc": "For growing companies scaling their platform.", "features": ["Full product & design team", "Up to 5 engineers", "Dedicated project manager", "Priority support", "Custom integrations"] },
+      { "name": "Enterprise", "price": "Custom", "desc": "For organizations with complex, large-scale needs.", "features": ["Unlimited team scaling", "Enterprise SLAs", "Dedicated security review", "24/7 white-glove support", "On-site collaboration"] }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "How long does a typical project take?", "a": "Most projects range from 6 to 16 weeks depending on scope, from discovery through launch." },
+      { "q": "Do you work with startups and enterprises?", "a": "Yes \u2014 our plans and processes flex from early-stage MVPs to enterprise-grade platforms." },
+      { "q": "What technologies do you specialize in?", "a": "Vue, React, Node.js, Python, cloud-native infrastructure and modern mobile stacks." },
+      { "q": "Can you support us after launch?", "a": "Absolutely. We offer ongoing maintenance, monitoring and feature development retainers." },
+      { "q": "How do we get started?", "a": "Book a discovery call and we'll scope your project within days, not weeks." }
+    ]
+  },
+  "blog": {
+    "seoTitle": "Blog | AC Company",
+    "seoDescription": "Read insights from AC Company on product strategy, technology and the future of digital experiences.",
+    "eyebrow": "Insights & ideas",
+    "title": "Practical thinking for modern product teams and ambitious founders.",
+    "subtitle": "We share perspectives on product strategy, technology choices and the habits that make digital products easier to grow and maintain.",
+    "ctaContact": "Join the conversation",
+    "sectionEyebrow": "Latest articles",
+    "sectionTitle": "Fresh perspectives on building smarter digital products.",
+    "sectionSubtitle": "Our writing focuses on hands-on ideas that help teams make better decisions with less friction.",
+    "readMore": "Read more",
+    "readArticle": "Read article",
+    "searchPlaceholder": "Search articles..."
+  },
+  "newsletter": {
+    "title": "Stay ahead of the curve",
+    "subtitle": "Get product insights and engineering deep-dives in your inbox.",
+    "placeholder": "Enter your email",
+    "cta": "Subscribe",
+    "success": "You're subscribed! Check your inbox."
+  },
+  "contact": {
+    "seoTitle": "Contact | AC Company",
+    "seoDescription": "Reach out to AC Company for product strategy, design, development and AI partnerships.",
+    "eyebrow": "Get In Touch",
+    "title": "Let's build something great together",
+    "subtitle": "Tell us about your project and we'll respond within one business day.",
+    "ctaEmail": "Start the conversation",
+    "ctaWhatsapp": "Message on WhatsApp",
+    "emailUs": "Email Us",
+    "callUs": "Call Us",
+    "whatsapp": "Whatsapp",
+    "visit": "Visit",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent! We'll be in touch shortly.",
+    "office": "Office Address",
+    "hours": "Business Hours",
+    "hoursValue": "Mon \u2013 Fri, 9:00 \u2013 18:00"
+  },
+  "footer": {
+    "about": "AC Company is a digital engineering studio dedicated to delivering cutting-edge technology solutions for ambitious businesses worldwide.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading experience...",
+    "backToTop": "Back to top"
+  }
+}
