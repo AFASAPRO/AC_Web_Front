@@ -116,7 +116,7 @@ const showProject = (project) => {
                 size="sm"
                 class="w-full justify-between"
               >
-                <span>{{ t('portfolio.viewCase') }}</span>
+                <span class="text-white">{{ t('portfolio.viewCase') }}</span>
                 <ExternalLink class="h-3.5 w-3.5" />
               </BaseButton>
             </div>
