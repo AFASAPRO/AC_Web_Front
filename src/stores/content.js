@@ -3,6 +3,11 @@ import {
   Globe2, Smartphone, Building2, BrainCircuit, Palette, Cloud,
   GitBranch, Plug, Database, Wrench, ShieldCheck, MessagesSquare,
 } from 'lucide-vue-next'
+import teamImage1 from '@/assets/images/1.png'
+import teamImage2 from '@/assets/images/2.JPG'
+import teamImage3 from '@/assets/images/3.png'
+import teamImage5 from '@/assets/images/5.png'
+import teamImage6 from '@/assets/images/6.png'
 
 export const useContentStore = defineStore('content', {
   state: () => ({
@@ -35,12 +40,12 @@ export const useContentStore = defineStore('content', {
       { name: 'James Liu', role: 'VP Engineering, Vertex Labs', quote: 'From discovery to launch, AC Company felt like an extension of our own team.', avatar: 'https://i.pravatar.cc/120?img=52', rating: 5 },
     ],
     team: [
-      { name: 'Mugisha Afani', role: 'Software Developer', experience: '7+ yrs', skills: ['Strategy', 'Product'], img: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop' },
-      { name: 'Mugisha Tumusifu Chretien', role: 'Lead Engineer', experience: '7+ yrs', skills: ['Data Analyst', 'Node.js'], img: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop' },
-      { name: 'Zirikana Elie', role: 'UX and UI Designer', experience: '6+ yrs', skills: ['Figma', 'Photoshop'], img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop' },
-      { name: 'Nshizirungu Espoir', role: 'DevOps Lead', experience: '8+ yrs', skills:['UI/UX', 'Branding'], img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop' },
-      { name: 'Nshimiyimana David', role: 'Software Development Lead', experience: '8+ yrs', skills:['AWS', 'Kubernetes']  , img: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop' },
-      { name: 'Ice Gold', role: 'DevOps Lead', experience: '6+ yrs', skills: ['Operator', 'Analytics'], img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop' }
+      { name: 'Mugisha Afani', role: 'Software Developer', experience: '7+ yrs', skills: ['Strategy', 'Product'], img: teamImage1 },
+      { name: 'Mugisha Tumusifu Chretien', role: 'Lead Engineer', experience: '7+ yrs', skills: ['Data Analyst', 'Node.js'], img: teamImage2 },
+      { name: 'Zirikana Elie', role: 'UX and UI Designer', experience: '6+ yrs', skills: ['Figma', 'Photoshop'], img: teamImage3 },
+      { name: 'Nshizirungu Espoir', role: 'DevOps Lead', experience: '8+ yrs', skills: ['UI/UX', 'Branding'], img: '' },
+      { name: 'Nshimiyimana David', role: 'Software Development Lead', experience: '8+ yrs', skills: ['AWS', 'Kubernetes'], img: teamImage5 },
+      { name: 'Ice Gold', role: 'DevOps Lead', experience: '6+ yrs', skills: ['Operator', 'Analytics'], img: teamImage6 }
     ],
     blog: [
       { id: 1, slug: 'ai-in-software-engineering', title: 'The Rise of AI in Modern Software Engineering', category: 'AI & Machine Learning', date: '2026-02-07', img: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop', excerpt: 'How applied AI is reshaping the software development lifecycle, from code generation to intelligent QA.' },

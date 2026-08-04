@@ -30,7 +30,14 @@ onMounted(() => setTimeout(() => (isLoading.value = false), 400))
           class="reveal group relative overflow-hidden rounded-3xl"
           :style="{ transitionDelay: (i % 4) * 60 + 'ms' }"
         >
-          <LazyImage :src="member.img" :alt="member.name" aspect="aspect-[3/4]" img-class="transition-transform duration-700 group-hover:scale-110" />
+          <template v-if="member.img">
+            <LazyImage :src="member.img" :alt="member.name" aspect="aspect-[3/4]" img-class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+          </template>
+          <div v-else class="flex aspect-[3/4] items-end justify-start bg-gradient-to-br from-slate-200 via-ink-100 to-accent-100 p-5">
+            <span class="rounded-full bg-white/80 px-4 py-2 text-sm font-semibold text-ink-900 shadow-sm">
+              {{ member.name.split(' ').map((part) => part[0]).join('').slice(0, 2) }}
+            </span>
+          </div>
           <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/10 to-transparent"></div>
 
           <div class="absolute right-3 top-3 flex translate-y-2 flex-col gap-2 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
