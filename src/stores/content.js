@@ -8,6 +8,12 @@ import teamImage2 from '@/assets/images/2.JPG'
 import teamImage3 from '@/assets/images/3.png'
 import teamImage5 from '@/assets/images/5.png'
 import teamImage6 from '@/assets/images/6.png'
+import projectImage1 from '@/assets/images/P1.jpg'
+import projectImage2 from '@/assets/images/P2.png'
+import projectImage3 from '@/assets/images/P3.png'
+import projectImage4 from '@/assets/images/p4.png'
+import projectImage5 from '@/assets/images/P5.png'
+import projectImage6 from '@/assets/images/P6.png'
 
 export const useContentStore = defineStore('content', {
   state: () => ({
@@ -26,12 +32,12 @@ export const useContentStore = defineStore('content', {
       'Cascade', 'Ironclad', 'Meridian', 'Lumen Works', 'Basecamp Co',
     ],
     portfolio: [
-      { id: 1, slug: 'fintech-dashboard', title: 'Fintech Analytics Dashboard', category: 'web', tags: ['Vue', 'Node.js', 'PostgreSQL'], img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop' },
-      { id: 2, slug: 'health-mobile-app', title: 'Telehealth Mobile Platform', category: 'mobile', tags: ['React Native', 'Firebase'], img: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1400&auto=format&fit=crop' },
-      { id: 3, slug: 'ai-support-agent', title: 'AI Customer Support Agent', category: 'ai', tags: ['Python', 'LLM', 'Vector DB'], img: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1400&auto=format&fit=crop' },
-      { id: 4, slug: 'cloud-migration', title: 'Enterprise Cloud Migration', category: 'cloud', tags: ['AWS', 'Terraform', 'Kubernetes'], img: 'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1400&auto=format&fit=crop' },
-      { id: 5, slug: 'logistics-platform', title: 'Real-time Logistics Platform', category: 'web', tags: ['Vue', 'GraphQL', 'Redis'], img: 'https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=1400&auto=format&fit=crop' },
-      { id: 6, slug: 'retail-app', title: 'Omnichannel Retail App', category: 'mobile', tags: ['Flutter', 'Stripe'], img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1400&auto=format&fit=crop' },
+      { id: 1, slug: 'card-studio', title: 'Card Studio', category: 'system', tags: ['Vue', 'Node.js', 'PostgreSQL'], img: projectImage1 },
+      { id: 2, slug: 'Kinyabot AI Assistant', title: 'Kinyabot AI Assistant', category: 'ai', tags: ['React Native', 'Firebase'], img: projectImage2 },
+      { id: 3, slug: 'ESA Attendance System', title: 'ESA Attendance System', category: 'system', tags: ['Python', 'LLM', 'Vector DB'], img: projectImage3 },
+      { id: 4, slug: 'LearnN  Sass E-learning system', title: 'LearnN  E-learning system', category: 'cloud', tags: ['AWS', 'Terraform', 'Kubernetes'], img: projectImage4 },
+      { id: 5, slug: 'CMS Dashboards', title: 'CMS Dashboards', category: 'web', tags: ['Vue', 'GraphQL', 'Redis'], img: projectImage5 },
+      { id: 6, slug: 'Modern Website for Airline Group', title: 'Modern Website for Airline Group', category: 'web', tags: ['Laravel', 'PostgreSQL'], img: projectImage6 },
     ],
     testimonials: [
       { name: 'Sarah Whitfield', role: 'CEO, Nexora', quote: 'Nexora Company rebuilt our entire platform in twelve weeks. The quality bar was the highest we\u2019ve worked with.', avatar: 'https://i.pravatar.cc/120?img=32', rating: 5 },

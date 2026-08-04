@@ -1,8 +1,8 @@
 export const SITE = {
   name: 'Nexora Company',
   tagline: 'Building Digital Solutions for Tomorrow',
-  url: 'https://www.accompany.com',
-  email: 'hello@accompany.com',
+  url: 'https://www.nexoracompany.com',
+  email: 'nexoracompany@gmail.com',
   phone: '+250 788 000 000',
   whatsapp: '250788000000',
   address: '131/E, Near Kigali Heights, KG 7 Ave, Kigali, Rwanda',
