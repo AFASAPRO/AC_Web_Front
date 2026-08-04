@@ -106,7 +106,7 @@ useSeoMeta({
               </div>
 
               <div class="mt-6 pt-4 border-t border-ink-100 dark:border-ink-800">
-                <BaseButton tag="router-link" :to="`/portfolio/${project.slug}`" variant="outline" class="w-full justify-between">
+                <BaseButton tag="router-link" :to="`/portfolio/${project.slug}`" variant="outline" class="w-full justify-between text-black">
                   <span>{{ t('portfolio.viewCase') }}</span>
                   <ExternalLink class="h-4 w-4" />
                 </BaseButton>
