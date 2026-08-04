@@ -6,61 +6,61 @@ const publicRoutes = [
     path: '/',
     name: 'home',
     component: () => import('@/pages/HomePage.vue'),
-    meta: { title: 'AC Company — Building Digital Solutions for Tomorrow' },
+    meta: { title: 'Nexora Company — Building Digital Solutions for Tomorrow' },
   },
   {
     path: '/about',
     name: 'about',
     component: () => import('@/pages/AboutPage.vue'),
-    meta: { title: 'About — AC Company' },
+    meta: { title: 'About — Nexora Company' },
   },
   {
     path: '/services',
     name: 'services',
     component: () => import('@/pages/ServicesPage.vue'),
-    meta: { title: 'Services — AC Company' },
+    meta: { title: 'Services — Nexora Company' },
   },
   {
     path: '/portfolio',
     name: 'portfolio',
     component: () => import('@/pages/PortfolioPage.vue'),
-    meta: { title: 'Portfolio — AC Company' },
+    meta: { title: 'Portfolio — Nexora Company' },
   },
   {
     path: '/portfolio/:slug',
     name: 'case-study',
     component: () => import('@/pages/CaseStudyPage.vue'),
-    meta: { title: 'Case Study — AC Company' },
+    meta: { title: 'Case Study — Nexora Company' },
   },
   {
     path: '/industries',
     name: 'industries',
     component: () => import('@/pages/IndustriesPage.vue'),
-    meta: { title: 'Industries — AC Company' },
+    meta: { title: 'Industries — Nexora Company' },
   },
   {
     path: '/testimonials',
     name: 'testimonials',
     component: () => import('@/pages/TestimonialsPage.vue'),
-    meta: { title: 'Testimonials — AC Company' },
+    meta: { title: 'Testimonials — Nexora Company' },
   },
   {
     path: '/blog',
     name: 'blog',
     component: () => import('@/pages/BlogPage.vue'),
-    meta: { title: 'Blog — AC Company' },
+    meta: { title: 'Blog — Nexora Company' },
   },
   {
     path: '/blog/:slug',
     name: 'blog-post',
     component: () => import('@/pages/BlogPostPage.vue'),
-    meta: { title: 'Blog — AC Company' },
+    meta: { title: 'Blog — Nexora Company' },
   },
   {
     path: '/contact',
     name: 'contact',
     component: () => import('@/pages/ContactPage.vue'),
-    meta: { title: 'Contact — AC Company' },
+    meta: { title: 'Contact — Nexora Company' },
   },
 ]
 
@@ -106,7 +106,7 @@ const catchAll = [
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: () => import('@/pages/NotFoundPage.vue'),
-    meta: { title: '404 — AC Company' },
+    meta: { title: '404 — Nexora Company' },
   },
 ]
 
@@ -167,7 +167,7 @@ router.beforeEach((to, from, next) => {
 })
 
 router.afterEach((to) => {
-  document.title = to.meta.title || 'AC Company'
+  document.title = to.meta.title || 'Nexora Company'
 })
 
 export default router

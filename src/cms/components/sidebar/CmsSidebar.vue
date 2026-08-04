@@ -105,7 +105,7 @@ function isActive(path) {
           <path d="M6 8L14 4L14 16L6 20V8Z" fill="currentColor" />
           <path d="M18 12L26 8L26 20L18 24V12Z" fill="currentColor" />
         </svg>
-        <span v-if="!collapsed" class="sidebar__brand-text">AC Company</span>
+        <span v-if="!collapsed" class="sidebar__brand-text">Nexora Company</span>
       </router-link>
       <button class="sidebar__collapse-btn" @click="emit('toggle')">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

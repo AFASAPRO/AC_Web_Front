@@ -11,6 +11,6 @@ defineProps({
 <template>
   <picture>
     <source :srcset="logoWebp" type="image/webp" />
-    <img :src="logoPng" alt="AC Company logo" width="220" height="120" :class="[imgClass, invert ? 'brightness-0 invert' : '']" />
+    <img :src="logoPng" alt="Nexora Company logo" width="220" height="120" :class="[imgClass, invert ? 'brightness-0 invert' : '']" />
   </picture>
 </template>

@@ -7,7 +7,7 @@ const showTeaser = ref(false)
 const input = ref('')
 const listEl = ref(null)
 const messages = ref([
-  { role: 'assistant', text: "Hi! I'm the AC Company assistant. Ask me about our services, pricing or how to start a project." },
+  { role: 'assistant', text: "Hi! I'm the Nexora Company assistant. Ask me about our services, pricing or how to start a project." },
 ])
 const isTyping = ref(false)
 let teaserTimer = null

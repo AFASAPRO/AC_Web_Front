@@ -138,7 +138,7 @@ async function deleteItem(id) {
             </div>
           </div>
           <h3 class="font-bold text-base text-gray-900 mb-1">{{ item.title }}</h3>
-          <p class="text-xs text-gray-500 mb-2">Client: {{ item.clientName || 'AC Company Showcase' }}</p>
+          <p class="text-xs text-gray-500 mb-2">Client: {{ item.clientName || 'Nexora Company Showcase' }}</p>
           <p class="text-xs text-gray-600 line-clamp-2">{{ item.description }}</p>
         </div>
       </div>

@@ -20,7 +20,7 @@ import ContactSection from '@/components/sections/ContactSection.vue'
 useSeoMeta({
   title: computed(() => `${SITE.name} \u2014 ${SITE.tagline}`),
   description: computed(
-    () => 'AC Company designs and engineers modern websites, mobile apps, AI solutions, enterprise software and cloud platforms that help businesses grow.'
+    () => 'Nexora Company designs and engineers modern websites, mobile apps, AI solutions, enterprise software and cloud platforms that help businesses grow.'
   ),
   url: computed(() => SITE.url),
   image: computed(() => `${SITE.url}/og-image.jpg`),

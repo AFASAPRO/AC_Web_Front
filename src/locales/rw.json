@@ -11,7 +11,7 @@
     "getStarted": "Tangira Nonaha"
   },
   "hero": {
-    "eyebrow": "AC Company \u2014 Ikigo cy'Ikoranabuhanga",
+    "eyebrow": "Nexora Company \u2014 Ikigo cy'Ikoranabuhanga",
     "title": "Twubaka Ibisubizo byi Ikoranabuhanga byo Ejo Hazaza",
     "subtitle": "Dukora imbuga za interineti zigezweho, porogaramu za telefone, ibisubizo bya AI, sisitemu z'ibigo, ibikoresho bya cloud, n'ibicuruzwa bya digitale bifasha ubucuruzi gukura.",
     "ctaPrimary": "Tangira Nonaha",
@@ -28,11 +28,11 @@
     "title": "Twizerwa n'amasosiyete akomeye ku isi"
   },
   "about": {
-    "seoTitle": "Abo turi bo | AC Company",
-    "seoDescription": "AC Company ihuriza hamwe umugambi w'ibicuruzwa, igishushanyo na tekinoloji kugira ngo dukore ubunararibonye bwa digitale butuma ubucuruzi bukura.",
+    "seoTitle": "Abo turi bo | Nexora Company",
+    "seoDescription": "Nexora Company ihuriza hamwe umugambi w'ibicuruzwa, igishushanyo na tekinoloji kugira ngo dukore ubunararibonye bwa digitale butuma ubucuruzi bukura.",
     "eyebrow": "Abo turi bo",
     "title": "Twubaka porogaramu ziha imbaraga amasosiyete y'ejo hazaza",
-    "description": "AC Company ni ikigo cy'ikoranabuhanga cyihaye intego yo gutegura, kubaka no kwagura ibikoresho bya software byo ku rwego rw'isi. Dukoresha inzobere zikuru mu ikoranabuhanga hamwe n'imyumvire y'ibicuruzwa kugira ngo dutange ibikoresho bihagaze neza mu mikorere isanzwe.",
+    "description": "Nexora Company ni ikigo cy'ikoranabuhanga cyihaye intego yo gutegura, kubaka no kwagura ibikoresho bya software byo ku rwego rw'isi. Dukoresha inzobere zikuru mu ikoranabuhanga hamwe n'imyumvire y'ibicuruzwa kugira ngo dutange ibikoresho bihagaze neza mu mikorere isanzwe.",
     "ctaPrimary": "Reba serivisi",
     "ctaSecondary": "Tegura inama y'uburyo",
     "heroTagline": "Twubakiye ku matsinda yifuza kugera kure",
@@ -82,8 +82,8 @@
     "cta": "Menya Byinshi"
   },
   "services": {
-    "seoTitle": "Serivisi | AC Company",
-    "seoDescription": "AC Company itanga serivisi z'igishushanyo, iterambere, AI na cloud kugira ngo amatsinda agere ku ntego byihuse.",
+    "seoTitle": "Serivisi | Nexora Company",
+    "seoDescription": "Nexora Company itanga serivisi z'igishushanyo, iterambere, AI na cloud kugira ngo amatsinda agere ku ntego byihuse.",
     "eyebrow": "Ibyo Dukora",
     "title": "Serivisi zuzuye za digitale, zubatswe kugira ngo zagure",
     "subtitle": "Kuva ku gitekerezo cya mbere kugeza ku bikoresho by'ikoranabuhanga — itsinda rimwe, kuva ku ntangiriro kugeza ku iherezo.",
@@ -130,8 +130,8 @@
     ]
   },
   "portfolio": {
-    "seoTitle": "Imirimo | AC Company",
-    "seoDescription": "Reba imirimo yatoranijwe ya AC Company, harimo ibicuruzwa bya digitale, porogaramu za telefone n'ibisubizo bishingiye kuri AI.",
+    "seoTitle": "Imirimo | Nexora Company",
+    "seoDescription": "Reba imirimo yatoranijwe ya Nexora Company, harimo ibicuruzwa bya digitale, porogaramu za telefone n'ibisubizo bishingiye kuri AI.",
     "eyebrow": "Imirimo Yacu",
     "title": "Imishinga idasanzwe, ibisubizo by'ukuri",
     "subtitle": "Bimwe mu bicuruzwa twateguye, twubatse kandi twatanze.",
@@ -143,8 +143,8 @@
     "sourceCode": "Kode"
   },
   "industries": {
-    "seoTitle": "Inganda | AC Company",
-    "seoDescription": "AC Company ifasha amakipe yo mu nganda nka fintech, ubuzima, uburezi, ubucuruzi n'ibindi kugera ku bisubizo byihariye.",
+    "seoTitle": "Inganda | Nexora Company",
+    "seoDescription": "Nexora Company ifasha amakipe yo mu nganda nka fintech, ubuzima, uburezi, ubucuruzi n'ibindi kugera ku bisubizo byihariye.",
     "eyebrow": "Inganda dukorera",
     "title": "Dushyira mu bikorwa ibisubizo bya digitale bihuye n'ibikenewe n'inganda zanyu.",
     "subtitle": "Duhindura ibibazo bikomeye mu bisubizo byoroshye kandi byubakiye ku cyizere n'umutekano.",
@@ -163,7 +163,7 @@
   },
   "why": {
     "eyebrow": "Inyungu Zacu",
-    "title": "Impamvu amatsinda yitoranya AC Company",
+    "title": "Impamvu amatsinda yitoranya Nexora Company",
     "items": [
       { "title": "Itsinda ry'Inzobere", "desc": "Inzobere zikuru mu ikoranabuhanga n'igishushanyo, ntabwo ari abatangira." },
       { "title": "Gutanga Vuba", "desc": "Uburyo bworoshye butanga umurimo tutagabanije ubwiza." },
@@ -174,8 +174,8 @@
     ]
   },
   "testimonials": {
-    "seoTitle": "Ibitekerezo | AC Company",
-    "seoDescription": "Soma ibitekerezo by'abakiriya urebe impamvu amatsinda yizerana na AC Company mu byemezo bya tekinoloji n'ibicuruzwa.",
+    "seoTitle": "Ibitekerezo | Nexora Company",
+    "seoDescription": "Soma ibitekerezo by'abakiriya urebe impamvu amatsinda yizerana na Nexora Company mu byemezo bya tekinoloji n'ibicuruzwa.",
     "eyebrow": "Ibitekerezo",
     "title": "Dukundwa n'abashinze amasosiyete n'amatsinda y'ibicuruzwa",
     "subtitle": "Ubufatanye n'abakiriya ni umutima w'akazi kacu, kandi ibitekerezo tubona bigaragaza umucyo, ubuhanga n'umutuzo mu ishyirwa mu bikorwa.",
@@ -213,8 +213,8 @@
     ]
   },
   "blog": {
-    "seoTitle": "Blog | AC Company",
-    "seoDescription": "Soma ibitekerezo bya AC Company ku bijyanye na strategy y'ibicuruzwa, tekinoloji n'ejo hazaza h'ubunararibonye bwa digitale.",
+    "seoTitle": "Blog | Nexora Company",
+    "seoDescription": "Soma ibitekerezo bya Nexora Company ku bijyanye na strategy y'ibicuruzwa, tekinoloji n'ejo hazaza h'ubunararibonye bwa digitale.",
     "eyebrow": "Ubutumwa & ibitekerezo",
     "title": "Ibitekerezo bifatika ku matsinda y'ibicuruzwa ya kijyambere n'abashinze amasosiyete.",
     "subtitle": "Dusangiza ibyo tubona ku bijyanye na strategy y'ibicuruzwa, guhitamo tekinoloji n'imyitwarire ifasha ibicuruzwa gukura no kuboneka neza.",
@@ -234,7 +234,7 @@
     "success": "Wiyandikishije! Reba iyimero yawe."
   },
   "contact": {
-    "seoTitle": "Twandikire | AC Company",
+    "seoTitle": "Twandikire | Nexora Company",
     "seoDescription": "Twandikire kugira ngo tuganire ku bijyanye na strategy y'ibicuruzwa, igishushanyo, iterambere n'ubufatanye bwa AI.",
     "eyebrow": "Twandikire",
     "title": "Reka twubake ikintu kiruta ibindi hamwe",
@@ -258,7 +258,7 @@
     "hoursValue": "Kuwa Mbere - Kuwa Gatanu, 9:00 - 18:00"
   },
   "footer": {
-    "about": "AC Company ni ikigo cy'ikoranabuhanga cyihaye intego yo gutanga ibisubizo bigezweho ku bucuruzi bufite intego zo gukura ku isi.",
+    "about": "Nexora Company ni ikigo cy'ikoranabuhanga cyihaye intego yo gutanga ibisubizo bigezweho ku bucuruzi bufite intego zo gukura ku isi.",
     "quickLinks": "Ihuza Ryihuse",
     "services": "Serivisi",
     "contact": "Twandikire",

@@ -34,10 +34,10 @@ export const useContentStore = defineStore('content', {
       { id: 6, slug: 'retail-app', title: 'Omnichannel Retail App', category: 'mobile', tags: ['Flutter', 'Stripe'], img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1400&auto=format&fit=crop' },
     ],
     testimonials: [
-      { name: 'Sarah Whitfield', role: 'CEO, Nexora', quote: 'AC Company rebuilt our entire platform in twelve weeks. The quality bar was the highest we\u2019ve worked with.', avatar: 'https://i.pravatar.cc/120?img=32', rating: 5 },
+      { name: 'Sarah Whitfield', role: 'CEO, Nexora', quote: 'Nexora Company rebuilt our entire platform in twelve weeks. The quality bar was the highest we\u2019ve worked with.', avatar: 'https://i.pravatar.cc/120?img=32', rating: 5 },
       { name: 'David Okonkwo', role: 'CTO, Halo Systems', quote: 'Communication was flawless and the engineering was even better. Our uptime has never been more stable.', avatar: 'https://i.pravatar.cc/120?img=13', rating: 5 },
       { name: 'Amara Diallo', role: 'Founder, Lumen Works', quote: 'They think like product owners, not contractors. Every recommendation moved our metrics.', avatar: 'https://i.pravatar.cc/120?img=47', rating: 5 },
-      { name: 'James Liu', role: 'VP Engineering, Vertex Labs', quote: 'From discovery to launch, AC Company felt like an extension of our own team.', avatar: 'https://i.pravatar.cc/120?img=52', rating: 5 },
+      { name: 'James Liu', role: 'VP Engineering, Vertex Labs', quote: 'From discovery to launch, Nexora Company felt like an extension of our own team.', avatar: 'https://i.pravatar.cc/120?img=52', rating: 5 },
     ],
     team: [
       { name: 'Mugisha Afani', role: 'Software Developer', experience: '7+ yrs', skills: ['Strategy', 'Product'], img: teamImage1 },

@@ -64,7 +64,7 @@ const infoItems = [
 
           <div class="overflow-hidden rounded-2xl border border-ink-100">
             <iframe
-              title="AC Company office location map"
+              title="Nexora Company office location map"
               class="h-56 w-full"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"

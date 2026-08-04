@@ -1,5 +1,5 @@
 export const SITE = {
-  name: 'AC Company',
+  name: 'Nexora Company',
   tagline: 'Building Digital Solutions for Tomorrow',
   url: 'https://www.accompany.com',
   email: 'hello@accompany.com',

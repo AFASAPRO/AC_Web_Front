@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const company = ref({
-  name: 'AC Company Ltd.',
+  name: 'Nexora Company Ltd.',
   email: 'support@accompany.com',
   phone: '+1 (555) 019-2831',
   address: '100 Innovation Way, Suite 400, Tech District',

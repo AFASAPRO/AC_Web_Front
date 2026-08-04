@@ -1,6 +1,6 @@
 <script setup>
 const milestones = [
-  { year: '2017', title: 'AC Company founded', desc: 'Started as a two-person freelance studio building websites for local businesses.' },
+  { year: '2017', title: 'Nexora Company founded', desc: 'Started as a two-person freelance studio building websites for local businesses.' },
   { year: '2019', title: 'First enterprise client', desc: 'Delivered our first large-scale platform, growing the team to 8 engineers.' },
   { year: '2021', title: 'Regional expansion', desc: 'Opened operations across East Africa, serving clients in 6 new countries.' },
   { year: '2023', title: 'AI practice launched', desc: 'Built a dedicated applied-AI team to ship intelligent product features.' },

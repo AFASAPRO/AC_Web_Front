@@ -16,14 +16,14 @@ const { t, tm } = useI18n()
         <div class="grid grid-cols-2 gap-4">
           <LazyImage
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=900&auto=format&fit=crop"
-            alt="AC Company engineers collaborating"
+            alt="Nexora Company engineers collaborating"
             aspect="aspect-[3/4]"
             img-class="rounded-2xl"
             class="translate-y-6"
           />
           <LazyImage
             src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=900&auto=format&fit=crop"
-            alt="AC Company team reviewing a product"
+            alt="Nexora Company team reviewing a product"
             aspect="aspect-[3/4]"
             img-class="rounded-2xl"
           />

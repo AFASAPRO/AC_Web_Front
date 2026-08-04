@@ -97,7 +97,7 @@ onMounted(() => {
         <div class="relative mx-auto max-w-2xl" :style="parallaxStyle">
           <picture>
             <source :srcset="heroIllustrationWebp" type="image/webp" />
-            <img :src="heroIllustration" alt="AC Company digital marketing and analytics illustration" width="1000" height="800" class="w-full drop-shadow-2xl " />
+            <img :src="heroIllustration" alt="Nexora Company digital marketing and analytics illustration" width="1000" height="800" class="w-full drop-shadow-2xl " />
           </picture>
         </div>
       </div>

@@ -17,7 +17,7 @@ export function usePwaUpdate() {
           ui.pushToast({ type: 'success', message: 'A new version is available — refresh to update.' })
         },
         onOfflineReady() {
-          ui.pushToast({ type: 'success', message: 'AC Company is ready to work offline.' })
+          ui.pushToast({ type: 'success', message: 'Nexora Company is ready to work offline.' })
         },
       })
     })

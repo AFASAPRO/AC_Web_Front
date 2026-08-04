@@ -31,7 +31,7 @@ async function sendMessage() {
   <div class="cms-page">
     <div class="cms-page__header">
       <div>
-        <h2 class="cms-page__title">Contact AC Company</h2>
+        <h2 class="cms-page__title">Contact Nexora Company</h2>
         <p class="cms-page__sub">Send a direct message or inquiry to your assigned project team & account manager</p>
       </div>
     </div>
