@@ -18,7 +18,7 @@ const isLoading = ref(true)
 onMounted(() => setTimeout(() => (isLoading.value = false), 500))
 
 const activeFilter = ref('all')
-const filters = ['all', 'web', 'mobile', 'ai', 'cloud']
+const filters = ['all', 'web', 'system', 'ai', 'cloud', 'mobile']
 const filtered = computed(() => content.portfolioByCategory(activeFilter.value))
 
 const activeProject = ref(null)
@@ -42,59 +42,108 @@ const showProject = (project) => {
             :class="activeFilter === f ? 'border-ink-950 bg-ink-950 text-white' : 'border-ink-200 text-ink-600 hover:border-ink-950'"
             @click="activeFilter = f"
           >
-            {{ t(`portfolio.filters.${f}`) }}
+            {{ t(`portfolio.filters.${f}`) || f }}
           </button>
         </div>
       </div>
 
-      <div v-if="isLoading" class="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <SkeletonCard v-for="n in 6" :key="n" aspect="aspect-[4/5]" :lines="1" />
+      <div v-if="isLoading" class="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <SkeletonCard v-for="n in 6" :key="n" aspect="aspect-[16/10]" :lines="2" />
       </div>
 
       <TransitionGroup
         v-else
         tag="div"
         name="grid-fade"
-        class="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        class="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
       >
-        <button
+        <div
           v-for="project in filtered"
           :key="project.id"
-          class="group relative overflow-hidden rounded-3xl text-left ring-1 ring-ink-100 transition-shadow duration-500 hover:shadow-[0_32px_64px_-24px_rgba(10,10,10,0.25)]"
-          @click="showProject(project)"
+          class="group flex flex-col overflow-hidden rounded-3xl border border-ink-200/80 bg-white shadow-sm transition-all duration-500 hover:-translate-y-1 hover:border-ink-300 hover:shadow-xl dark:border-ink-800 dark:bg-ink-900"
         >
-          <LazyImage :src="project.img" :alt="project.title" aspect="aspect-[4/5]" img-class="transition-transform duration-700 group-hover:scale-110" />
-          <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent"></div>
+          <!-- Browser Frame Header -->
+          <div class="flex items-center justify-between border-b border-ink-100 bg-ink-50/80 px-4 py-2.5 dark:border-ink-800 dark:bg-ink-950/80">
+            <div class="flex items-center gap-1.5">
+              <span class="h-2.5 w-2.5 rounded-full bg-rose-400"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-amber-400"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+            </div>
+            <span class="text-[10px] font-mono font-medium uppercase tracking-wider text-ink-400 dark:text-ink-400">
+              {{ t(`portfolio.filters.${project.category}`) || project.category }}
+            </span>
+          </div>
 
-          <span class="absolute right-4 top-4 grid h-10 w-10 -translate-y-2 place-items-center rounded-full bg-white text-ink-950 opacity-0 shadow-lg transition-all duration-400 group-hover:translate-y-0 group-hover:opacity-100">
-            <ArrowUpRight class="h-4 w-4" />
-          </span>
-
-          <div class="absolute inset-x-0 bottom-0 p-6">
-            <p class="inline-flex items-center rounded-full bg-white/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white backdrop-blur">
-              {{ t(`portfolio.filters.${project.category}`) }}
-            </p>
-            <h3 class="font-display mt-2.5 text-lg font-bold text-white">{{ project.title }}</h3>
-            <div class="mt-2 flex flex-wrap gap-1.5 opacity-0 transition-opacity duration-400 group-hover:opacity-100">
-              <span v-for="tag in project.tags.slice(0, 2)" :key="tag" class="rounded-full border border-white/20 px-2 py-0.5 text-[10px] font-medium text-white/70">
-                {{ tag }}
+          <!-- Image Preview -->
+          <div class="relative overflow-hidden bg-ink-950 aspect-[16/10] cursor-pointer" @click="showProject(project)">
+            <LazyImage
+              :src="project.img"
+              :alt="project.title"
+              aspect="aspect-[16/10]"
+              img-class="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+            />
+            <div class="absolute inset-0 bg-ink-950/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
+              <span class="inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-xs font-semibold text-ink-950 shadow-lg backdrop-blur">
+                Quick View <ArrowUpRight class="h-3.5 w-3.5" />
               </span>
             </div>
           </div>
-        </button>
+
+          <!-- Card Info -->
+          <div class="flex flex-1 flex-col justify-between p-6">
+            <div>
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="rounded-full bg-accent-500/10 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent-600 dark:text-accent-400">
+                  {{ t(`portfolio.filters.${project.category}`) || project.category }}
+                </span>
+                <span v-for="tag in project.tags" :key="tag" class="rounded-full bg-ink-100 px-2.5 py-0.5 text-[11px] font-medium text-ink-600 dark:bg-ink-800 dark:text-ink-300">
+                  {{ tag }}
+                </span>
+              </div>
+              <h3 class="font-display mt-3.5 text-xl font-bold text-ink-950 transition-colors group-hover:text-accent-600 dark:text-white dark:group-hover:text-accent-400">
+                {{ project.title }}
+              </h3>
+              <p class="mt-2 text-sm leading-relaxed text-ink-500 dark:text-ink-400 line-clamp-2">
+                {{ t('portfolio.projectSummary') }}
+              </p>
+            </div>
+
+            <div class="mt-6 flex items-center justify-between pt-4 border-t border-ink-100 dark:border-ink-800">
+              <BaseButton
+                tag="router-link"
+                :to="`/portfolio/${project.slug}`"
+                variant="outline"
+                size="sm"
+                class="w-full justify-between"
+              >
+                <span>{{ t('portfolio.viewCase') }}</span>
+                <ExternalLink class="h-3.5 w-3.5" />
+              </BaseButton>
+            </div>
+          </div>
+        </div>
       </TransitionGroup>
     </div>
 
     <BaseModal v-model="open">
       <div v-if="activeProject">
-        <LazyImage :src="activeProject.img" :alt="activeProject.title" aspect="aspect-[16/9]" img-class="rounded-2xl" />
-        <p class="mt-6 text-xs font-semibold uppercase tracking-wide text-accent-600">{{ t(`portfolio.filters.${activeProject.category}`) }}</p>
-        <h3 class="font-display mt-1 text-2xl font-bold text-ink-950">{{ activeProject.title }}</h3>
-        <p class="mt-3 text-sm leading-relaxed text-ink-500">
+        <div class="overflow-hidden rounded-2xl border border-ink-100 dark:border-ink-800 shadow-md">
+          <div class="flex items-center justify-between border-b border-ink-100 bg-ink-50/80 px-4 py-2 dark:border-ink-800 dark:bg-ink-950/80">
+            <div class="flex items-center gap-1.5">
+              <span class="h-2 w-2 rounded-full bg-rose-400"></span>
+              <span class="h-2 w-2 rounded-full bg-amber-400"></span>
+              <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+            </div>
+          </div>
+          <LazyImage :src="activeProject.img" :alt="activeProject.title" aspect="aspect-[16/10]" img-class="h-full w-full object-cover object-top" />
+        </div>
+        <p class="mt-6 text-xs font-semibold uppercase tracking-wide text-accent-600">{{ t(`portfolio.filters.${activeProject.category}`) || activeProject.category }}</p>
+        <h3 class="font-display mt-1 text-2xl font-bold text-ink-950 dark:text-white">{{ activeProject.title }}</h3>
+        <p class="mt-3 text-sm leading-relaxed text-ink-500 dark:text-ink-400">
           A closer look at how our team approached discovery, design and engineering to deliver measurable results for this project.
         </p>
         <div class="mt-4 flex flex-wrap gap-2">
-          <span v-for="tag in activeProject.tags" :key="tag" class="rounded-full bg-ink-100 px-3 py-1 text-xs font-medium text-ink-600">{{ tag }}</span>
+          <span v-for="tag in activeProject.tags" :key="tag" class="rounded-full bg-ink-100 px-3 py-1 text-xs font-medium text-ink-600 dark:bg-ink-800 dark:text-ink-300">{{ tag }}</span>
         </div>
         <div class="mt-7 flex flex-wrap items-center justify-between gap-4">
           <div class="flex flex-wrap gap-3">

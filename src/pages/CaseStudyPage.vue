@@ -36,7 +36,19 @@ useSeoMeta({
       </div>
       <ShareButtons class="mt-5" :url="`${SITE.url}/portfolio/${project.slug}`" :title="project.title" />
 
-      <LazyImage :src="project.img" :alt="project.title" aspect="aspect-[16/9]" img-class="rounded-3xl" class="mt-8" />
+      <div class="mt-8 overflow-hidden rounded-3xl border border-ink-100 dark:border-ink-800 shadow-lg bg-ink-950">
+        <div class="flex items-center justify-between border-b border-ink-100 bg-ink-50/80 px-4 py-3 dark:border-ink-800 dark:bg-ink-950/80">
+          <div class="flex items-center gap-1.5">
+            <span class="h-2.5 w-2.5 rounded-full bg-rose-400"></span>
+            <span class="h-2.5 w-2.5 rounded-full bg-amber-400"></span>
+            <span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+          </div>
+          <span class="text-[10px] font-mono font-medium uppercase tracking-wider text-ink-400 dark:text-ink-400">
+            {{ project.category }}
+          </span>
+        </div>
+        <LazyImage :src="project.img" :alt="project.title" aspect="aspect-[16/10]" img-class="h-full w-full object-cover object-top" />
+      </div>
 
       <div class="prose prose-ink mt-10 max-w-none text-ink-600">
         <p>

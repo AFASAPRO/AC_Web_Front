@@ -31,6 +31,13 @@ const srcset = computed(() => {
 })
 
 const optimizedSrc = computed(() => (isUnsplash ? withWidth(props.src, 900) : props.src))
+
+const baseFitClass = computed(() => {
+  if (props.imgClass && (props.imgClass.includes('object-contain') || props.imgClass.includes('object-scale-down') || props.imgClass.includes('object-fill') || props.imgClass.includes('object-none'))) {
+    return ''
+  }
+  return 'object-cover'
+})
 </script>
 
 <template>
@@ -43,8 +50,8 @@ const optimizedSrc = computed(() => (isUnsplash ? withWidth(props.src, 900) : pr
       :alt="alt"
       loading="lazy"
       decoding="async"
-      class="h-full w-full object-cover transition-opacity duration-700"
-      :class="[imgClass, loaded ? 'opacity-100' : 'opacity-0']"
+      class="h-full w-full transition-opacity duration-700"
+      :class="[baseFitClass, imgClass, loaded ? 'opacity-100' : 'opacity-0']"
       @load="loaded = true"
     />
   </div>

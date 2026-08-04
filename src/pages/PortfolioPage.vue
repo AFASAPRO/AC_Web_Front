@@ -75,19 +75,42 @@ useSeoMeta({
       <div class="container-px mx-auto max-w-7xl px-6">
         <SectionTitle :eyebrow="t('portfolio.eyebrow')" :title="t('portfolio.title')" :subtitle="t('portfolio.subtitle')" align="center" />
 
-        <div class="mt-10 grid gap-6 lg:grid-cols-2">
-          <GlassCard v-for="project in projects" :key="project.slug" padding="p-0" class="overflow-hidden">
-            <LazyImage :src="project.img" :alt="project.title" aspect="aspect-[16/9]" img-class="h-full w-full object-cover" />
-            <div class="p-6">
-              <div class="flex flex-wrap items-center gap-2">
-                <span class="rounded-full bg-accent-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent-600">{{ project.category }}</span>
-                <span v-for="tag in project.tags" :key="tag" class="rounded-full bg-ink-100 px-3 py-1 text-xs font-semibold text-ink-500">{{ tag }}</span>
+        <div class="mt-10 grid gap-8 lg:grid-cols-2">
+          <GlassCard v-for="project in projects" :key="project.slug" padding="p-0" class="group flex flex-col overflow-hidden border border-ink-100 dark:border-ink-800">
+            <!-- Browser Mockup Header -->
+            <div class="flex items-center justify-between border-b border-ink-100 bg-ink-50/80 px-4 py-2.5 dark:border-ink-800 dark:bg-ink-950/80">
+              <div class="flex items-center gap-1.5">
+                <span class="h-2.5 w-2.5 rounded-full bg-rose-400"></span>
+                <span class="h-2.5 w-2.5 rounded-full bg-amber-400"></span>
+                <span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
               </div>
-              <h3 class="mt-4 font-display text-2xl font-semibold text-ink-950">{{ project.title }}</h3>
-              <p class="mt-3 text-sm leading-7 text-ink-500">{{ t('portfolio.projectSummary') }}</p>
-              <BaseButton tag="router-link" :to="`/portfolio/${project.slug}`" variant="outline" class="mt-6">
-                {{ t('portfolio.viewCase') }} <ExternalLink class="h-4 w-4" />
-              </BaseButton>
+              <span class="text-[10px] font-mono font-medium uppercase tracking-wider text-ink-400 dark:text-ink-400">
+                {{ project.category }}
+              </span>
+            </div>
+
+            <!-- Image Preview -->
+            <div class="relative overflow-hidden bg-ink-950 aspect-[16/10]">
+              <LazyImage :src="project.img" :alt="project.title" aspect="aspect-[16/10]" img-class="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105" />
+            </div>
+
+            <!-- Card Body -->
+            <div class="flex flex-1 flex-col justify-between p-6">
+              <div>
+                <div class="flex flex-wrap items-center gap-2">
+                  <span class="rounded-full bg-accent-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent-600 dark:text-accent-400">{{ project.category }}</span>
+                  <span v-for="tag in project.tags" :key="tag" class="rounded-full bg-ink-100 dark:bg-ink-800 px-3 py-1 text-xs font-semibold text-ink-600 dark:text-ink-300">{{ tag }}</span>
+                </div>
+                <h3 class="mt-4 font-display text-2xl font-semibold text-ink-950 dark:text-white group-hover:text-accent-600 transition-colors">{{ project.title }}</h3>
+                <p class="mt-3 text-sm leading-7 text-ink-500 dark:text-ink-400">{{ t('portfolio.projectSummary') }}</p>
+              </div>
+
+              <div class="mt-6 pt-4 border-t border-ink-100 dark:border-ink-800">
+                <BaseButton tag="router-link" :to="`/portfolio/${project.slug}`" variant="outline" class="w-full justify-between">
+                  <span>{{ t('portfolio.viewCase') }}</span>
+                  <ExternalLink class="h-4 w-4" />
+                </BaseButton>
+              </div>
             </div>
           </GlassCard>
         </div>
