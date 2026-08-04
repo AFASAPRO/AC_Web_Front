@@ -267,6 +267,12 @@
     "privacy": "Politiki y'Ibanga",
     "terms": "Amabwiriza y'Ikoreshwa"
   },
+  "pwa": {
+    "title": "Shyiramo App ya Nexora",
+    "description": "Shyiramo Porogaramu yacu kuri telefone cyangwa mudasobwa yawe kugira ngo uyikoreshe vuba kandi neza.",
+    "install": "Shyiramo App",
+    "later": "Hanyuma"
+  },
   "common": {
     "loading": "Turimo gutegura ahantu...",
     "backToTop": "Subira hejuru"

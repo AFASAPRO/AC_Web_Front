@@ -267,6 +267,12 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   },
+  "pwa": {
+    "title": "Install Nexora App",
+    "description": "Install our website app on your device for quick access, fast loading, and a seamless native experience.",
+    "install": "Install App",
+    "later": "Maybe Later"
+  },
   "common": {
     "loading": "Loading experience...",
     "backToTop": "Back to top"

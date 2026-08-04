@@ -14,6 +14,7 @@ import WhatsAppButton from '@/components/layout/WhatsAppButton.vue'
 import ScrollToTopButton from '@/components/layout/ScrollToTopButton.vue'
 import AiChatWidget from '@/components/layout/AiChatWidget.vue'
 import CookieConsentBanner from '@/components/layout/CookieConsentBanner.vue'
+import PwaInstallPrompt from '@/components/layout/PwaInstallPrompt.vue'
 
 const { locale } = useI18n()
 const route = useRoute()
@@ -61,6 +62,7 @@ watch(
       <AiChatWidget />
       <ToastContainer />
       <CookieConsentBanner />
+      <PwaInstallPrompt />
     </template>
   </div>
 </template>
