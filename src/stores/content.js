@@ -6,6 +6,7 @@ import {
 import teamImage1 from '@/assets/images/1.png'
 import teamImage2 from '@/assets/images/2.JPG'
 import teamImage3 from '@/assets/images/3.png'
+import teamImage4 from '@/assets/images/4.png'
 import teamImage5 from '@/assets/images/5.png'
 import teamImage6 from '@/assets/images/6.png'
 import projectImage1 from '@/assets/images/P1.jpg'
@@ -49,7 +50,7 @@ export const useContentStore = defineStore('content', {
       { name: 'Mugisha Afani', role: 'Software Developer', experience: '7+ yrs', skills: ['Strategy', 'Product'], img: teamImage1 },
       { name: 'Mugisha Tumusifu Chretien', role: 'Lead Engineer', experience: '7+ yrs', skills: ['Data Analyst', 'Node.js'], img: teamImage2 },
       { name: 'Zirikana Elie', role: 'UX and UI Designer', experience: '6+ yrs', skills: ['Figma', 'Photoshop'], img: teamImage3 },
-      { name: 'Nshizirungu Espoir', role: 'DevOps Lead', experience: '8+ yrs', skills: ['UI/UX', 'Branding'], img: '' },
+      { name: 'Nshizirungu Espoir', role: 'DevOps Lead', experience: '8+ yrs', skills: ['UI/UX', 'Branding'], img: teamImage4 },
       { name: 'Nshimiyimana David', role: 'Software Development Lead', experience: '8+ yrs', skills: ['AWS', 'Kubernetes'], img: teamImage5 },
       { name: 'Ice Gold', role: 'DevOps Lead', experience: '6+ yrs', skills: ['Operator', 'Analytics'], img: teamImage6 }
     ],
