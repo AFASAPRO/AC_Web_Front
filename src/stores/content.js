@@ -52,7 +52,7 @@ export const useContentStore = defineStore('content', {
       { name: 'Zirikana Elie', role: 'UX and UI Designer', experience: '6+ yrs', skills: ['Figma', 'Photoshop'], img: teamImage3 },
       { name: 'Nshizirungu Espoir', role: 'DevOps Lead', experience: '8+ yrs', skills: ['UI/UX', 'Branding'], img: teamImage4 },
       { name: 'Nshimiyimana David', role: 'Software Development Lead', experience: '8+ yrs', skills: ['AWS', 'Kubernetes'], img: teamImage5 },
-      { name: 'Ice Gold', role: 'DevOps Lead', experience: '6+ yrs', skills: ['Operator', 'Analytics'], img: teamImage6 }
+      { name: 'Mugisha Saano', role: 'DevOps Lead', experience: '6+ yrs', skills: ['Operator', 'Analytics'], img: teamImage6 }
     ],
     blog: [
       { id: 1, slug: 'ai-in-software-engineering', title: 'The Rise of AI in Modern Software Engineering', category: 'AI & Machine Learning', date: '2026-02-07', img: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop', excerpt: 'How applied AI is reshaping the software development lifecycle, from code generation to intelligent QA.' },
